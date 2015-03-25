@@ -57,7 +57,7 @@ function print_r_html($var, $comment_out = true)
  */
 function var_dump_log($var)
 {
-   error_log(var_export($var, true));
+   error_log(var_dump($var, true));
 }
 
 /**
